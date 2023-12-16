@@ -14,6 +14,7 @@ const Article = (props) => {
             <p className="article__tekst--p">
                 {props.tekst3}
             </p>
+            <a className="article__tekst--a" href="#projecten">{props.link}</a>
         </article>
     );
 }

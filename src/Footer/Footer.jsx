@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer class="footer">
         <section class="footer__section">
-          <h3 class="form__h3">Social Media</h3>
+          <h3 class="form__h3">Contacttijden</h3>
           <ul class="form__ul">
             <li>
               <p>PMB is bereikbaar op 
@@ -19,10 +19,10 @@ const Footer = () => {
           <h3 class="form__h3" id="contact">Social Media</h3>
           <ul class="form__ul">
             <li>
-              <a href="">X (twitter)</a>
+              <a target="_blank" href="https://twitter.com/PMB020">X (twitter)</a>
             </li>
             <li>
-              <a href="">Linkedin</a>
+              <a target="_blank" href="http://www.linkedin.com/company/projectmanagement-bureau">Linkedin</a>
             </li>
           </ul>
     
@@ -32,14 +32,14 @@ const Footer = () => {
           <h3 class="form__h3">Over site</h3>
           <ul class="form__ul">
             <li>
-              <a class="form__ul--a" href="">Colofon</a>
+              <a class="form__ul--a" target="_blank" href="https://www.amsterdam.nl/pmb/algemene-onderdelen/colofon/">Colofon</a>
             </li>
             <li>
-              <a class="form__ul--a" href="">Proclaimer en copyright
+              <a class="form__ul--a" target="_blank" href="https://www.amsterdam.nl/pmb/algemene-onderdelen/proclaimer-copyright/">Proclaimer en copyright
               </a>
             </li>
             <li>
-              <a class="form__ul--a" href="">Sitemap
+              <a class="form__ul--a" target="_blank" href="https://www.amsterdam.nl/pmb/algemene-onderdelen/sitemap/">Sitemap
               </a>
             </li>
           </ul>

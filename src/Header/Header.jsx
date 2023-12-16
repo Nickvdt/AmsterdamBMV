@@ -8,7 +8,7 @@ const Header = () => {
                 <img src="img/logo.webp" width="75px" alt="Logo" />
             </section>
             <section>
-                <h1 className="BMV--tekst">BMV</h1>
+                <h1 className="BMV--tekst">Bouwmanagement en Maatschappelijk Vastgoed</h1>
             </section>
         </header>
     );
