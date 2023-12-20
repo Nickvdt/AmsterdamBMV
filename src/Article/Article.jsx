@@ -8,13 +8,15 @@ const Article = (props) => {
             <p className="article__tekst--p">
                 {props.tekst1}
             </p>
+            <br></br>
             <p className="article__tekst--p">
                 {props.tekst2}
             </p>
+            <br></br>
             <p className="article__tekst--p">
                 {props.tekst3}
             </p>
-            <a className="article__tekst--a" href="#projecten">{props.link}</a>
+            <a className="article__tekst--a" href={props.href}>{props.linknaam}</a>
         </article>
     );
 }

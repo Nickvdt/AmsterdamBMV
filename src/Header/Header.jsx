@@ -5,7 +5,9 @@ const Header = () => {
     return ( 
         <header>
             <section>
-                <img src="img/logo.webp" width="75px" alt="Logo" />
+                <a href="/Home">
+                    <img src="../img/logo.webp" width="75px" alt="Logo" />
+                </a>
             </section>
             <section>
                 <h1 className="BMV--tekst">Bouwmanagement en Maatschappelijk Vastgoed</h1>

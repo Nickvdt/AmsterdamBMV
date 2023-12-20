@@ -1,10 +1,10 @@
 import React from "react";
 import "./Banner.css";
 
-const Banner = () => {
+const Banner = (props) => {
     return (
         <figure className="banner">
-            <img className="banner__img" src="img/amsterdam.webp" alt="Aanzicht van de Amstel" />
+            <img className="banner__img" src={props.banner} alt="Banner image" />
         </figure>
     );
 }
