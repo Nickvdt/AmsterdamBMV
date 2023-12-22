@@ -22,7 +22,8 @@ function Home() {
       <Header></Header>
       <Navigatie></Navigatie>
       <Banner
-        banner="img/Amsterdam.webp"
+        banner="img/amsterdam.webp"
+        title="Bouwmanagement en Maatschappelijk Vastgoed"
       ></Banner>
       <Article
         titel="Bijdragen aan een toekomstbestendige stad"

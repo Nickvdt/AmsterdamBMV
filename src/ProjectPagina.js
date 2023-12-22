@@ -5,6 +5,7 @@ import Navigatie from './Navigatie/Navigatie';
 import Banner from './Banner/Banner';
 import Article from './Article/Article';
 import Slideshow from './Slideshow/Slideshow';
+import Video from "./Video/Video";
 import Footer from './Footer/Footer';
 
 function Projectpagina() {
@@ -26,7 +27,8 @@ function Projectpagina() {
             <Header></Header>
             <Navigatie></Navigatie>
             <Banner
-            banner="../img/Amsterdam.webp"
+            banner={project.bannerimg}
+            title={project.title}
             ></Banner>
             <Article
                 titel={project.title}
@@ -42,6 +44,7 @@ function Projectpagina() {
                 img3={project.img3}
             >
             </Slideshow>
+            {project.video && <Video video={project.video} />}
             <Footer></Footer>
         </main>
     );
