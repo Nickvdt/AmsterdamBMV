@@ -23,3 +23,15 @@
 .button:nth-child(2){
     margin-right: 1rem;
 }
+
+@media screen and (max-width: 85rem) {
+    .buttons{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .button{
+        padding: 1rem 2rem;
+    }
+
+}

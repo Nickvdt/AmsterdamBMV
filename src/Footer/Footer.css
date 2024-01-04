@@ -36,3 +36,24 @@
     text-decoration: none;
     color: #000000;
 }
+
+@media screen and (max-width: 915px) {
+    .footer{
+        flex-wrap: wrap;
+    }
+
+    .footer__section {
+        width: 48%;
+    }
+}
+
+
+@media screen and (max-width: 71.5rem) {
+    .footer__section {
+        width: 70%;
+    }
+    .form__h3{
+        border-bottom: none;
+        padding-top: 2.5rem;
+    }
+}

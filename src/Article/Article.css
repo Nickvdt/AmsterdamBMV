@@ -24,3 +24,11 @@
 .article__tekst--a:hover{
     color: darkred;
 }
+
+@media screen and (max-width: 81.5rem) {
+    .article__tekst{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}

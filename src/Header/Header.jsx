@@ -5,7 +5,7 @@ const Header = () => {
     return ( 
         <header>
             <section>
-                <a href="/Home">
+                <a href="../">
                     <img src="../img/logo.webp" width="75px" alt="Logo" />
                 </a>
             </section>

@@ -25,7 +25,9 @@ function Projectpagina() {
     return (
         <main className="App">
             <Header></Header>
-            <Navigatie></Navigatie>
+            <Navigatie
+            projectenlink="../#projecten"
+            ></Navigatie>
             <Banner
             banner={project.bannerimg}
             title={project.title}

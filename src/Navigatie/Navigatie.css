@@ -13,3 +13,9 @@ nav {
 .nav__a:hover {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 40rem) {
+    .nav{
+        font-size: 1.4rem;
+    }
+  }

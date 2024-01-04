@@ -20,7 +20,9 @@ function Home() {
 
     <main className="App">
       <Header></Header>
-      <Navigatie></Navigatie>
+      <Navigatie
+            projectenlink="#projecten"
+            ></Navigatie>
       <Banner
         banner="img/amsterdam.webp"
         title="Bouwmanagement en Maatschappelijk Vastgoed"
